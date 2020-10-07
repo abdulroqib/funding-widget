@@ -4,6 +4,7 @@
   margin: 0; 
   padding: 0;
 }
+
 body {
   font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; 
   color: #424242; 
@@ -39,6 +40,11 @@ h1 {
 
 input, button {
   font-family: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .widget {
@@ -170,9 +176,11 @@ input, button {
 }
 
 .box .reason {
+  display: inline-block;
   margin-top: 10px;
   font-style: italic;
   color: #20A1D4;
+  text-decoration: none;
 }
 
 .button-container {
