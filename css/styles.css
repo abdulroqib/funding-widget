@@ -58,6 +58,7 @@ input, button {
   color: #ffffff;  
   background-color: #424242;
   padding: 12px;
+  text-align: center;
   border-radius: 3px;
 }
 
@@ -81,6 +82,8 @@ input, button {
   background-color: #fafafa;
   height: 13px;
   margin-top: 10px;
+  -webkit-box-shadow: inset 0 0 5px #eaeaea;
+  -moz-box-shadow: inset 0 0 5px #eaeaea;
   box-shadow: inset 0 0 5px #eaeaea;
 }
 
@@ -103,6 +106,8 @@ input, button {
   padding: 15px;
   text-align: left;
   border-top: none;
+  -webkit-box-shadow: 0 1px 2px #eaeaea;
+  -moz-box-shadow: 0 1px 2px #eaeaea;
   box-shadow: 0 1px 2px #eaeaea;
 }
 
@@ -136,6 +141,8 @@ input, button {
   padding: 0 5px 0 25px;
   border: 1px solid #eaeaea;
   border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 3px #eaeaea;
+  -moz-box-shadow: inset 0 0 3px #eaeaea;
   box-shadow: inset 0 0 3px #eaeaea;
 }
 
@@ -157,6 +164,8 @@ input, button {
   font-size: 1.2em;
   border: none;
   border-radius: 2px;
+  -webkit-box-shadow: 0 0 1px #199a26;
+  -moz-box-shadow: 0 0 1px #199a26;
   box-shadow: 0 0 1px #199a26;
 }
 
@@ -182,6 +191,8 @@ input, button {
   color: #777777;
   text-shadow: 0 0 1px #9e9e9e;
   background-color: #fafafa;
+  -webkit-box-shadow: 0 1px 2px #eaeaea;
+  -moz-box-shadow: 0 1px 2px #eaeaea;
   box-shadow: 0 1px 2px #eaeaea;
   border: 1px solid #eaeaea;
   border-radius: 2px;
